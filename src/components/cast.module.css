@@ -1,0 +1,27 @@
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.person p {
+    margin: 0;
+}
+
+.person img {
+    max-width: 200px;
+    max-height: 280px;
+}
+
+.no_image {
+    width: 200px;
+    height: 280px;
+
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
